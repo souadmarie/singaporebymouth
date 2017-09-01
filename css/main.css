@@ -1,0 +1,69 @@
+/* html {
+    background: red;
+} */
+
+.top-banner {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 768px){
+    .top-banner {
+        height: 400px;
+    }
+}
+
+#top-banner-title{
+    /* font-size: 100px; */
+    /* text-transform: none; */
+    color: $text;
+    text-shadow: 2px 2px $text; 
+    text-align: center;
+    color: #282216; 
+    padding-top: 15%;
+}
+
+#big-h1{
+    font-size: 400%;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+@media (max-width: 768px){
+    #big-h1 {
+        font-size: 300%;
+    }
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #45072e;
+    border-color: #45072e;; 
+}
+
+.btn-secondary.active, .btn-secondary:active, .btn-secondary:hover, .show>.btn-secondary.dropdown-toggle {
+    background-color: #7b295c;
+    background-image: none;
+    border-color: #7b295c;
+    color: #fff;
+}
+
+#welcome{
+    padding-top: 2%;
+    text-align: center;
+}
+
+#restaux{
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+#restau{
+    text-align: center;
+}
+
+a {
+    color: #358604;
+}
+a:hover {
+    color: #a1d880;
+}
